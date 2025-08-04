@@ -25,6 +25,14 @@ export default defineNuxtConfig({
      */
     componentDir: './app/components/ui'
   },
+  eslint: {
+    config: {
+      stylistic: {
+        semi: true,
+        quotes: 'single',
+      },
+    },
+  },
   runtimeConfig: {
     public: {
       firebaseApiKey: "",
